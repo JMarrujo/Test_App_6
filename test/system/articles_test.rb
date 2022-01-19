@@ -40,6 +40,6 @@ class ArticlesTest < ApplicationSystemTestCase
       click_on "Destroy", match: :first
     end
 
-    assert_text "Article was successfully destroyed"
+    assert_text "Article was successfully deleted"
   end
 end
